@@ -1,5 +1,16 @@
 #include "raylib.h"
 
+#include "Game/Game.h"
+
+using namespace game;
+
+int main() {
+
+	core();
+	return 0;
+}
+
+/*
 #define MAX_POWERUP 3
 
 int main(void)
@@ -271,3 +282,5 @@ int main(void)
 
 	return 0;
 }
+
+*/
